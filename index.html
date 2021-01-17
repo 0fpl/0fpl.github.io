@@ -63,6 +63,30 @@
 			  color: #444444;
 			  background-color: #ffffff;
 			}
+			
+			.bg_slider {
+			  --initialTextColor: #ffffff;
+			  --slideTextColor: #444444;
+			  --initialBgColor: #444444;
+			  --slideBgColor: #ffffff;
+
+			  color: var(--initialTextColor);
+
+			  background-image: linear-gradient(90deg,
+			  var(--initialBgColor) 0%,
+		          var(--initialBgColor) 50%,
+		          var(--slideBgColor) 50%,
+		          var(--slideBgColor) 100%);
+			  background-size: 200%;
+			  transition: background-position .2s cubic-bezier(.47, .1, 1, .63), color .2s linear;
+			  transition-delay: 0.0s, 0.15s;
+    			}
+
+			.bg_slider:hover {
+			  color: var(--slideTextColor);
+			  cursor: pointer;
+			  background-position: -100% -100%;
+			}
 
 		</style>
 
@@ -72,7 +96,7 @@
 
 		<p class="masthead">Federico Polito</p>
 		<div class="blogroll">
-			<a href="publ.html">publications</a> <a href="https://www.master-sds.unito.it/do/docenti.pl/Show?_id=fpolito" target="_blank" rel="noopener">teaching</a> <a href="cv-italiano.pdf" target="_blank" rel="noopener">cv</a> <a href="https://arxiv.org/a/polito_f_1.html" target="_blank" rel="noopener">arXiv</a> <a href="https://www.researchgate.net/profile/Federico_Polito" target="_blank" rel="noopener">researchgate</a> <a href="https://scholar.google.com/citations?user=nOkmCCIAAAAJ" target="_blank" rel="noopener">gscholar</a> <a href="https://www.scopus.com/authid/detail.uri?authorId=35093114500" target="_blank" rel="noopener">scopus</a> <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=911144" target="_blank" rel="noopener">mathscinet</a>
+			<a class="bg_slider" href="publ.html">publications</a> <a class="bg_slider" href="https://www.master-sds.unito.it/do/docenti.pl/Show?_id=fpolito" target="_blank" rel="noopener">teaching</a> <a class="bg_slider" href="cv-italiano.pdf" target="_blank" rel="noopener">cv</a> <a class="bg_slider" href="https://arxiv.org/a/polito_f_1.html" target="_blank" rel="noopener">arXiv</a> <a class="bg_slider" href="https://www.researchgate.net/profile/Federico_Polito" target="_blank" rel="noopener">researchgate</a> <a class="bg_slider" href="https://scholar.google.com/citations?user=nOkmCCIAAAAJ" target="_blank" rel="noopener">gscholar</a> <a class="bg_slider" href="https://www.scopus.com/authid/detail.uri?authorId=35093114500" target="_blank" rel="noopener">scopus</a> <a class="bg_slider" href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=911144" target="_blank" rel="noopener">mathscinet</a>
 		</div>
 		<p><p />
 
