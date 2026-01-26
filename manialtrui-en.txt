@@ -1,0 +1,34 @@
+HandShare Briscola (AKA Briscola a mani altrui)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For 3-4 players. Uses a standard 40 card Italian deck (may be played with a reduced french deck).
+
+Shuffle the deck and deal 3 cards to each player. Each player holds their hand reversed: cards are face-out (visible to the other players) and hidden to the player holding them. Players must not reorder their hand.
+
+Reveal one card to determine the Briscola (trump suit). Place this card face up under the draw pile, perpendicular to it, so it remains visible at all times. The remaining cards form the draw pile.
+
+The first player is the player to the right of the dealer. Play proceeds anticlockwise.
+
+Starting from the first player and proceeding anticlockwise, each player takes a turn. On your turn you choose one card from an opponent's hand and play it to the table as your card for the trick. If, on your turn, there are no cards available in opponents’ hands (both opponents have no cards), you skip your turn.
+
+Penalizing rule: Only on the first trick of the game, the first player is constrained to do the following: if there is at least one non trump card available in opponents' hands, the player must choose a non trump card with the lowest ranking (Briscola rank). If all available cards in opponents' hands are trumps, the player chooses a trump card with the lowest ranking. If there are more than one cards sharing the minimum, the player may choose any of them.
+
+As in standard Briscola rules, if any trump was played, the highest trump wins. Otherwise, the highest card of the "lead suit" (suit of the first card played to the trick) wins. The winner take all cards from the trick as captured cards.
+
+The leader of a trick is the player who plays the first card of that trick. Except for the very first trick, the leader is the winner of the previous trick.
+
+After each trick, starting from the trick winner (and then proceeding anticlockwise, each player draws 1 card from the draw pile until they have 3 cards, as long as cards remain. When the draw pile is empty, the face-up Briscola card is taken as the last available draw. Once no cards remain to draw, hands may stay below 3 cards and the game continues all cards have been played.
+
+The ranking and value is that of stardard Briscola: ace 11, three 10, king 4, horse (knight) 3, jack 2, others 0. The player with the most total points in captured cards wins.
+
+
+Optional rule for 3 players: If a player has won 2 consecutive tricks, then on the following trick: the trick leader chooses an opponent who has at least one card. The other opponent (the one not chosen) decides which card is played from the chosen opponent’s hand. If there is no opponent with any cards, the trick leader skips their turn.
+
+
+Optional rule for 4 players: If a player has won 2 consecutive tricks, then on the following trick they may choose only from the two rightmost (from player's perspective) cards of each opponent’s hand. If they have won 3 consecutive tricks, then on the following trick they may choose only from the rightmost card of each opponent’s hand. If they have won 4 or more consecutive tricks, then on the following trick they must choose the rightmost card from the rightmost opponent.
+
+
+
+This variant of Briscola is partially inspired by Hanabi's reversed-hand visibility mechanic.
+
+This ruleset is made available under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Copyright © 2026 Federico Polito.
